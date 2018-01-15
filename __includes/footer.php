@@ -2,13 +2,22 @@
 
 		<footer>
 			<div class="first-row">
+
+				 <div class="pattern">
+					 <div class="first-pattern"></div>
+					 <div class="second-pattern"></div>
+					 <div class="third-pattern"></div>
+					 <div class="fourth-pattern"></div>
+				 </div>
+
+
 				<div class="content">
 					<p><span class="name">CSSPlato</span> is a non-profit project for developers by developer.</p>
-					<p>The project is not finished yet. If you want to help, I would love to work with you</p>
+					<p>The project is in work in progress. If you want to help, I would love to work with you</p>
 				</div>
 
 				<div class="img-container">
-					<img src="images/site/geek-165x240-mirror.png">
+					<img src="images/site/geek-223x230-mirror.png">
 				</div>
 			</div>
 

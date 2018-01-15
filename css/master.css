@@ -12,7 +12,7 @@ nav {
   display: grid;
   grid-template-columns: 50% 50%;
   padding: 15px 20px;
-  box-shadow: 0px 3px 10px #888; }
+  box-shadow: 0px 3px 10px #888888; }
   nav .brand-logo a {
     font-size: 1.3rem;
     font-family: 'Abel'; }
@@ -68,7 +68,7 @@ a.selected {
         margin-top: 30px; }
         .box-shadow .box-shadow-config .config-range .color-chooser-container .color-chooser-input-container .box-shadow-color {
           width: 30px;
-          border: 1px solid #888; }
+          border: 1px solid #888888; }
   .box-shadow .box-shadow-preview-container {
     /**
      *
@@ -158,7 +158,7 @@ a.selected {
         margin-top: 30px; }
         .border-radius .border-radius-config .config-range .color-chooser-container .color-chooser-input-container .color-chooser {
           width: 30px;
-          border: 1px solid #888; }
+          border: 1px solid #888888; }
   .border-radius .border-radius-preview-container {
     /**
      *
@@ -299,7 +299,7 @@ a.selected {
     text-align: center;
     padding: 5rem 0rem;
     background-color: #FFFFFF;
-    box-shadow: 0px 2px 2px #888;
+    box-shadow: 0px 2px 2px #888888;
     position: relative; }
     .home .wrapper .home-column .img-container i {
       font-size: 5rem; }
@@ -320,35 +320,55 @@ a.selected {
         color: #FFFFFF; }
 
 footer .first-row {
-  background-color: #C3C3C3;
   width: 60%;
   margin: 5.2rem auto;
-  position: relative; }
+  position: relative;
+  border-radius: 4px 4px 0px 0px;
+  box-shadow: 0px 0px 15px #888888; }
+  footer .first-row .pattern {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); }
+    footer .first-row .pattern div {
+      height: 4px; }
+      footer .first-row .pattern div:nth-child(1) {
+        background-color: #3498db;
+        border-radius: 4px 0px 0px 0px; }
+      footer .first-row .pattern div:nth-child(2) {
+        background-color: #EF551F; }
+      footer .first-row .pattern div:nth-child(3) {
+        background-color: #2ecc71; }
+      footer .first-row .pattern div:nth-child(4) {
+        background-color: #7872DB;
+        border-radius: 0px 4px 0px 0px; }
   footer .first-row .content {
-    padding: 1rem 0rem; }
+    padding: .5rem 0rem; }
     footer .first-row .content p {
-      padding: .5rem 1rem; }
+      padding: .5rem 1rem;
+      font-family: "Mukta Malar";
+      color: #2c3e50; }
       footer .first-row .content p span.name {
         font-weight: bold; }
   footer .first-row .img-container {
     position: absolute;
-    top: -100px;
+    top: -95px;
     right: 0; }
 footer .second-row {
   text-align: center;
-  padding-bottom: 1rem; }
+  padding-bottom: .8rem;
+  font-family: "PT Sans"; }
   footer .second-row h5, footer .second-row a {
-    color: #888; }
+    color: #888888; }
   footer .second-row .icon-github {
     font-size: 1.2rem; }
     footer .second-row .icon-github:hover {
       color: #000; }
 footer .third-row {
   text-align: center;
-  color: #888;
-  padding-bottom: .80rem; }
+  color: #888888;
+  padding-bottom: .80rem;
+  font-family: "Mukta Malar"; }
   footer .third-row a {
-    color: #888; }
+    color: #888888; }
     footer .third-row a:hover {
       text-decoration: underline; }
 
