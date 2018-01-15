@@ -1,0 +1,141 @@
+.text-shadow {
+
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	width: 80%;
+	margin: 10px auto;
+
+	.text-shadow-config {
+
+		/**
+		 *
+		 * Text shadow config
+		 * Left portion
+		 *
+		*/
+
+		width: 70%;
+		padding: 0px 20px;
+
+		.config-range {
+
+			margin: 20px 0px;
+
+			.label-n-pexel {
+
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+
+				.pexel-container {
+					text-align: right;
+				}
+			}
+
+			.pixel-input {
+				width: 13%;
+				padding: 5px;
+				outline: none;
+				border: 1px solid lightgray;
+			}
+
+			.text-shadow-slider {
+
+				margin: 20px 0px;
+			}
+
+		}
+
+	}
+
+	/**
+	*
+	* Color Chooser
+	*
+	*/
+
+	.text-shadow-row {
+
+		display: grid;
+
+		grid-template-columns: 1fr 1fr;
+
+		margin-top: 1rem;
+
+		.text-shadow-color-container {
+
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+
+			.text-shadow-color-input-container {
+
+				.color-input {
+					width: 2rem;
+				}
+			}
+		}
+	}
+
+
+	.text-shadow-preview-container {
+
+		/**
+		 *
+		 * text shadow preview
+		 * Right portion
+		 *
+		*/
+
+
+
+		.text-shadow-preview {
+
+			padding: 8rem 0rem;
+			text-align: center;
+
+			.sample-text {
+				outline: none;
+			}
+
+			.text-shadow-css {
+				display: none;
+			}
+
+			#text-shadow-css {
+			    border: none;
+			    border-radius: .3em;
+			    text-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+			                 inset 0 -.25em 0 hsla(0,0%,0%,.25),
+			                 0 .25em .25em hsla(0,0%,0%,.05);
+			    color: #fff;
+			    cursor: pointer;
+			    font-family: sans-serif;
+			    font-weight: 300;
+			    line-height: 1.5;
+			    letter-spacing: 1px;
+			    padding: .5em 1.5em .75em;
+			    position: relative;
+			    text-decoration: none;
+			    text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
+			    vertical-align: middle;
+			    user-select: none;
+				background-color: $blue;
+
+				margin-top: 7rem;
+
+				&:active {
+				      box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
+				                  inset 0 2px 0 hsla(0, 0%, 100%, .1),
+				                  inset 0 .25em .5em hsla(0, 0%, 0%, .05);
+				      margin-top: 8.8em;
+				}
+
+			    &:active,
+			    &:focus {
+			      outline: none;
+			    }
+			}
+		}
+	}
+}

@@ -1,0 +1,64 @@
+footer {
+
+	.first-row {
+
+		background-color: $silver;
+		width: 60%;
+		margin: 5.2rem auto;
+
+		position: relative;
+
+		.content {
+
+			padding: 1rem 0rem;
+
+			p {
+				padding: .5rem 1rem;
+
+				span.name {
+					font-weight: bold;
+				}
+			}
+		}
+
+		.img-container {
+			position: absolute;
+			top: -100px;
+			right: 0;
+		}
+	}
+
+	.second-row {
+		text-align: center;
+
+		padding-bottom: 1rem;
+
+		h5, a {
+			color: #888;
+		}
+
+		.icon-github {
+			font-size: 1.2rem;
+
+			&:hover {
+				color: #000;
+			}
+		}
+	}
+
+	.third-row {
+
+		text-align: center;
+		color: #888;
+
+		padding-bottom: .80rem;
+
+		a {
+			color: #888;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}

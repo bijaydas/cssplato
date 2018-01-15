@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css?family=Mukta+Malar|PT+Sans|Raleway|Titillium+Web|Ubuntu|Abel");
+/**
+ * Fonts
+ *
+ */
+/**
+ * Colors
+ *
+ */
+nav {
+  background-color: #2980b9;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 15px 20px;
+  box-shadow: 0px 3px 10px #888; }
+  nav .brand-logo a {
+    font-size: 1.3rem;
+    font-family: 'Abel'; }
+  nav ul {
+    text-align: right; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        padding: 16px 10px;
+        font-family: "Raleway"; }
+        nav ul li a:hover {
+          border-bottom: 4px solid #FFFFFF; }
+
+a.selected {
+  border-bottom: 4px solid #FFFFFF; }
+
+.box-shadow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: 10px auto; }
+  .box-shadow .box-shadow-config {
+    /**
+     *
+     * Box shadow config
+     * Left portion
+     *
+    */
+    width: 70%;
+    padding: 0px 20px; }
+    .box-shadow .box-shadow-config .config-range {
+      margin: 20px 0px;
+      /**
+        *
+        * Color Chooser
+        *
+      */ }
+      .box-shadow .box-shadow-config .config-range .label-n-pexel {
+        display: grid;
+        grid-template-columns: 1fr 1fr; }
+        .box-shadow .box-shadow-config .config-range .label-n-pexel .pexel-container {
+          text-align: right; }
+      .box-shadow .box-shadow-config .config-range .pixel-input {
+        width: 13%;
+        padding: 5px;
+        outline: none;
+        border: 1px solid lightgray; }
+      .box-shadow .box-shadow-config .config-range .box-shadow-slider {
+        margin: 20px 0px; }
+      .box-shadow .box-shadow-config .config-range .color-chooser-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 30px; }
+        .box-shadow .box-shadow-config .config-range .color-chooser-container .color-chooser-input-container .box-shadow-color {
+          width: 30px;
+          border: 1px solid #888; }
+  .box-shadow .box-shadow-preview-container {
+    /**
+     *
+     * Box shadow preview
+     * Right portion
+     *
+    */
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .box-shadow .box-shadow-preview-container .box-shadow-preview {
+      height: 300px;
+      width: 300px;
+      border: 1px solid lightgray;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .box-shadow .box-shadow-preview-container .box-shadow-preview .box-shadow-css {
+        display: none; }
+      .box-shadow .box-shadow-preview-container .box-shadow-preview #box-shadow-css {
+        display: inline-block;
+        border: none;
+        border-radius: .3em;
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 -0.25em 0 rgba(0, 0, 0, 0.25), 0 0.25em 0.25em rgba(0, 0, 0, 0.05);
+        color: #fff;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        padding: .5em 1.5em .75em;
+        position: relative;
+        text-decoration: none;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.25);
+        vertical-align: middle;
+        user-select: none;
+        background-color: #2980b9; }
+        .box-shadow .box-shadow-preview-container .box-shadow-preview #box-shadow-css:active {
+          box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1), inset 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
+          margin-top: .25em;
+          padding-bottom: .5em; }
+        .box-shadow .box-shadow-preview-container .box-shadow-preview #box-shadow-css:active, .box-shadow .box-shadow-preview-container .box-shadow-preview #box-shadow-css:focus {
+          outline: none; }
+
+.border-radius {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: 20px auto; }
+  .border-radius .border-radius-config {
+    /**
+     *
+     * Border-radius config
+     * Left portion
+     *
+    */
+    width: 70%; }
+    .border-radius .border-radius-config .grid-half {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      .border-radius .border-radius-config .grid-half div:nth-child(1) {
+        text-align: left; }
+      .border-radius .border-radius-config .grid-half div:nth-child(2) {
+        text-align: right; }
+    .border-radius .border-radius-config .config-range {
+      margin: 10px 0px;
+      /**
+        *
+        * Color Chooser
+        *
+      */ }
+      .border-radius .border-radius-config .config-range .label-n-pexel {
+        display: grid;
+        grid-template-columns: 1fr 1fr; }
+        .border-radius .border-radius-config .config-range .label-n-pexel .pexel-container {
+          text-align: right; }
+      .border-radius .border-radius-config .config-range .pixel-input {
+        width: 13%;
+        padding: 5px;
+        outline: none;
+        border: 1px solid lightgray; }
+      .border-radius .border-radius-config .config-range .border-radius-slider {
+        margin: 20px 0px; }
+      .border-radius .border-radius-config .config-range .color-chooser-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 30px; }
+        .border-radius .border-radius-config .config-range .color-chooser-container .color-chooser-input-container .color-chooser {
+          width: 30px;
+          border: 1px solid #888; }
+  .border-radius .border-radius-preview-container {
+    /**
+     *
+     * Border radius preview
+     * Right portion
+     *
+    */
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .border-radius .border-radius-preview-container .border-radius-preview {
+      height: 300px;
+      width: 300px;
+      border: 1px solid lightgray;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .border-radius .border-radius-preview-container .border-radius-preview .border-radius-css {
+        display: none; }
+      .border-radius .border-radius-preview-container .border-radius-preview #border-radius-css {
+        display: inline-block;
+        border: none;
+        border-radius: .3em;
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 -0.25em 0 rgba(0, 0, 0, 0.25), 0 0.25em 0.25em rgba(0, 0, 0, 0.05);
+        color: #fff;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        padding: .5em 1.5em .75em;
+        position: relative;
+        text-decoration: none;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.25);
+        vertical-align: middle;
+        user-select: none;
+        background-color: #2980b9; }
+        .border-radius .border-radius-preview-container .border-radius-preview #border-radius-css:active {
+          box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1), inset 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
+          margin-top: .25em;
+          padding-bottom: .5em; }
+        .border-radius .border-radius-preview-container .border-radius-preview #border-radius-css:active, .border-radius .border-radius-preview-container .border-radius-preview #border-radius-css:focus {
+          outline: none; }
+
+.text-shadow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: 10px auto;
+  /**
+  *
+  * Color Chooser
+  *
+  */ }
+  .text-shadow .text-shadow-config {
+    /**
+     *
+     * Text shadow config
+     * Left portion
+     *
+    */
+    width: 70%;
+    padding: 0px 20px; }
+    .text-shadow .text-shadow-config .config-range {
+      margin: 20px 0px; }
+      .text-shadow .text-shadow-config .config-range .label-n-pexel {
+        display: grid;
+        grid-template-columns: 1fr 1fr; }
+        .text-shadow .text-shadow-config .config-range .label-n-pexel .pexel-container {
+          text-align: right; }
+      .text-shadow .text-shadow-config .config-range .pixel-input {
+        width: 13%;
+        padding: 5px;
+        outline: none;
+        border: 1px solid lightgray; }
+      .text-shadow .text-shadow-config .config-range .text-shadow-slider {
+        margin: 20px 0px; }
+  .text-shadow .text-shadow-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem; }
+    .text-shadow .text-shadow-row .text-shadow-color-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      .text-shadow .text-shadow-row .text-shadow-color-container .text-shadow-color-input-container .color-input {
+        width: 2rem; }
+  .text-shadow .text-shadow-preview-container {
+    /**
+     *
+     * text shadow preview
+     * Right portion
+     *
+    */ }
+    .text-shadow .text-shadow-preview-container .text-shadow-preview {
+      padding: 8rem 0rem;
+      text-align: center; }
+      .text-shadow .text-shadow-preview-container .text-shadow-preview .sample-text {
+        outline: none; }
+      .text-shadow .text-shadow-preview-container .text-shadow-preview .text-shadow-css {
+        display: none; }
+      .text-shadow .text-shadow-preview-container .text-shadow-preview #text-shadow-css {
+        border: none;
+        border-radius: .3em;
+        text-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 -0.25em 0 rgba(0, 0, 0, 0.25), 0 0.25em 0.25em rgba(0, 0, 0, 0.05);
+        color: #fff;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        padding: .5em 1.5em .75em;
+        position: relative;
+        text-decoration: none;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.25);
+        vertical-align: middle;
+        user-select: none;
+        background-color: #2980b9;
+        margin-top: 7rem; }
+        .text-shadow .text-shadow-preview-container .text-shadow-preview #text-shadow-css:active {
+          box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1), inset 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
+          margin-top: 8.8em; }
+        .text-shadow .text-shadow-preview-container .text-shadow-preview #text-shadow-css:active, .text-shadow .text-shadow-preview-container .text-shadow-preview #text-shadow-css:focus {
+          outline: none; }
+
+.home .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  width: 50%;
+  margin: 2rem auto; }
+  .home .wrapper a.nav-pages {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .home .wrapper .home-column {
+    text-align: center;
+    padding: 5rem 0rem;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 2px #888;
+    position: relative; }
+    .home .wrapper .home-column .img-container i {
+      font-size: 5rem; }
+    .home .wrapper .home-column .img-label {
+      margin-top: 1rem;
+      font-family: "Titillium Web"; }
+    .home .wrapper .home-column:nth-child(1):hover {
+      background-color: #e67e22; }
+      .home .wrapper .home-column:nth-child(1):hover i, .home .wrapper .home-column:nth-child(1):hover .img-label {
+        color: #FFFFFF; }
+    .home .wrapper .home-column:nth-child(2):hover {
+      background-color: #2980b9; }
+      .home .wrapper .home-column:nth-child(2):hover i, .home .wrapper .home-column:nth-child(2):hover .img-label {
+        color: #FFFFFF; }
+    .home .wrapper .home-column:nth-child(3):hover {
+      background-color: #2ecc71; }
+      .home .wrapper .home-column:nth-child(3):hover i, .home .wrapper .home-column:nth-child(3):hover .img-label {
+        color: #FFFFFF; }
+
+footer .first-row {
+  background-color: #C3C3C3;
+  width: 60%;
+  margin: 5.2rem auto;
+  position: relative; }
+  footer .first-row .content {
+    padding: 1rem 0rem; }
+    footer .first-row .content p {
+      padding: .5rem 1rem; }
+      footer .first-row .content p span.name {
+        font-weight: bold; }
+  footer .first-row .img-container {
+    position: absolute;
+    top: -100px;
+    right: 0; }
+footer .second-row {
+  text-align: center;
+  padding-bottom: 1rem; }
+  footer .second-row h5, footer .second-row a {
+    color: #888; }
+  footer .second-row .icon-github {
+    font-size: 1.2rem; }
+    footer .second-row .icon-github:hover {
+      color: #000; }
+footer .third-row {
+  text-align: center;
+  color: #888;
+  padding-bottom: .80rem; }
+  footer .third-row a {
+    color: #888; }
+    footer .third-row a:hover {
+      text-decoration: underline; }
+
+/*# sourceMappingURL=master.css.map */

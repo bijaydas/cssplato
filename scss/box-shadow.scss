@@ -1,0 +1,137 @@
+.box-shadow {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	width: 80%;
+	margin: 10px auto;
+
+	.box-shadow-config {
+
+		/**
+		 *
+		 * Box shadow config
+		 * Left portion
+		 *
+		*/
+
+		width: 70%;
+		padding: 0px 20px;
+
+		.config-range {
+
+			margin: 20px 0px;
+
+			.label-n-pexel {
+
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+
+				.pexel-container {
+					text-align: right;
+				}
+			}
+
+			.pixel-input {
+				width: 13%;
+				padding: 5px;
+				outline: none;
+				border: 1px solid lightgray;
+			}
+
+			.box-shadow-slider {
+
+				margin: 20px 0px;
+			}
+
+			/**
+			  *
+			  * Color Chooser
+			  *
+			*/
+
+			.color-chooser-container {
+
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				margin-top: 30px;
+
+				.color-chooser-input-container {
+
+					.box-shadow-color {
+
+						width: 30px;
+
+						border: 1px solid $shadow-color;
+					}
+				}
+			}
+		}
+
+	}
+
+	.box-shadow-preview-container {
+
+		/**
+		 *
+		 * Box shadow preview
+		 * Right portion
+		 *
+		*/
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.box-shadow-preview {
+
+			height: 300px;
+			width: 300px;
+			border: 1px solid lightgray;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.box-shadow-css {
+
+				display: none;
+			}
+
+			#box-shadow-css {
+				display: inline-block;
+			    border: none;
+			    border-radius: .3em;
+			    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+			                inset 0 -.25em 0 hsla(0,0%,0%,.25),
+			                0 .25em .25em hsla(0,0%,0%,.05);
+			    color: #fff;
+			    cursor: pointer;
+			    font-family: sans-serif;
+			    font-weight: 300;
+			    line-height: 1.5;
+			    letter-spacing: 1px;
+			    padding: .5em 1.5em .75em;
+			    position: relative;
+			    text-decoration: none;
+			    text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
+			    vertical-align: middle;
+			    user-select: none;
+				background-color: $blue;
+
+				&:active {
+				      box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
+				                  inset 0 2px 0 hsla(0, 0%, 100%, .1),
+				                  inset 0 .25em .5em hsla(0, 0%, 0%, .05);
+				      margin-top: .25em;
+				      padding-bottom: .5em;
+				}
+
+			    &:active,
+			    &:focus {
+			      outline: none;
+			    }
+			}
+		}
+	}
+}

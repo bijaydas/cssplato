@@ -1,0 +1,148 @@
+.border-radius {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	width: 80%;
+	margin: 20px auto;
+
+	.border-radius-config {
+
+		/**
+		 *
+		 * Border-radius config
+		 * Left portion
+		 *
+		*/
+
+		.grid-half {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+
+			div:nth-child(1) {
+				text-align: left;
+			}
+			div:nth-child(2) {
+				text-align: right;
+			}
+		}
+
+		width: 70%;
+
+		.config-range {
+
+			margin: 10px 0px;
+
+			.label-n-pexel {
+
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+
+				.pexel-container {
+					text-align: right;
+				}
+			}
+
+			.pixel-input {
+				width: 13%;
+				padding: 5px;
+				outline: none;
+				border: 1px solid lightgray;
+			}
+
+			.border-radius-slider {
+
+				margin: 20px 0px;
+			}
+
+			/**
+			  *
+			  * Color Chooser
+			  *
+			*/
+
+			.color-chooser-container {
+
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				margin-top: 30px;
+
+				.color-chooser-input-container {
+
+					.color-chooser {
+
+						width: 30px;
+
+						border: 1px solid $shadow-color;
+					}
+				}
+			}
+		}
+
+	}
+
+	.border-radius-preview-container {
+
+		/**
+		 *
+		 * Border radius preview
+		 * Right portion
+		 *
+		*/
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.border-radius-preview {
+
+			height: 300px;
+			width: 300px;
+			border: 1px solid lightgray;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.border-radius-css {
+
+				display: none;
+			}
+
+			#border-radius-css {
+				display: inline-block;
+			    border: none;
+			    border-radius: .3em;
+			    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+			                inset 0 -.25em 0 hsla(0,0%,0%,.25),
+			                0 .25em .25em hsla(0,0%,0%,.05);
+			    color: #fff;
+			    cursor: pointer;
+			    font-family: sans-serif;
+			    font-weight: 300;
+			    line-height: 1.5;
+			    letter-spacing: 1px;
+			    padding: .5em 1.5em .75em;
+			    position: relative;
+			    text-decoration: none;
+			    text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
+			    vertical-align: middle;
+			    user-select: none;
+				background-color: $blue;
+
+				&:active {
+				      box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
+				                  inset 0 2px 0 hsla(0, 0%, 100%, .1),
+				                  inset 0 .25em .5em hsla(0, 0%, 0%, .05);
+				      margin-top: .25em;
+				      padding-bottom: .5em;
+				}
+
+			    &:active,
+			    &:focus {
+			      outline: none;
+			    }
+			}
+		}
+	}
+}
