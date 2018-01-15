@@ -4,7 +4,7 @@
 
 	<div class="wrapper">
 
-		<h5 class="label">About CSS Plato</h5>
+		<h5 class="label">About CSSPlato</h5>
 
 		<p>Welcome to CSSPlato. This tool is here to help you save time and money.</p>
 
@@ -32,9 +32,11 @@
 					<div class="bio">
 						<p>My name is Bijay Das. I'm a web developer. As of now I write code in PHP and other web development related tools and languages.</p>
 
-						<p>I currently live in Delhi, (India) and I'm always trying to improve my existing projects and creat new ones. <br> I
+						<p>
+							I currently live in Delhi, (India) and I'm always trying to improve my existing projects and creat new ones. <br> I
 							know this project has lots of bugs and I'm working on those as well as writing code for new features.
 						</p>
+
 
 					</div>
 				</div>
