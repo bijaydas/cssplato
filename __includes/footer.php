@@ -13,7 +13,7 @@
 
 				<div class="content">
 					<p><span class="name">CSSPlato</span> is a non-profit project for developers by developer.</p>
-					<p>The project is in work in progress. If you want to help, I would love to work with you</p>
+					<p>The project is in work in progress. If you want to help, I would love to work with you.</p>
 				</div>
 
 				<div class="img-container">
