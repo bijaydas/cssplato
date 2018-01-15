@@ -389,5 +389,18 @@ footer .third-row {
     padding: 1rem 0rem; }
   .about .wrapper p {
     padding: .95rem 0rem; }
+  .about .wrapper .developers {
+    margin-top: 2rem; }
+    .about .wrapper .developers .row .profile {
+      display: grid;
+      grid-template-columns: 1fr 3fr; }
+      .about .wrapper .developers .row .profile .img-container {
+        text-align: center; }
+        .about .wrapper .developers .row .profile .img-container .contact-links i {
+          color: #C3C3C3; }
+        .about .wrapper .developers .row .profile .img-container .contact-links .fa-github-square:hover {
+          color: #676767; }
+        .about .wrapper .developers .row .profile .img-container .contact-links .fa-linkedin-square:hover {
+          color: #0077B5; }
 
 /*# sourceMappingURL=master.css.map */

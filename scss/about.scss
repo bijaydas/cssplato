@@ -19,5 +19,44 @@
 		p {
 			padding: .95rem 0rem;
 		}
+
+		.developers {
+
+			margin-top: 2rem;
+
+			.row {
+
+				.profile {
+
+					display: grid;
+					grid-template-columns: 1fr 3fr;
+
+					.img-container {
+
+						text-align: center;
+
+						.contact-links {
+							i {
+								color: $silver;
+							}
+
+							.fa-github-square {
+								&:hover {
+									color: $gray-1;
+								}
+							}
+
+							.fa-linkedin-square {
+								&:hover {
+									color: $blue4;
+								}
+							}
+						}
+					}
+
+				}
+
+			}
+		}
 	}
 }

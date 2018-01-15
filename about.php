@@ -17,7 +17,28 @@
 		<!-- <p>Join me on <a href="https://github.com/bijaydas/cssplato" target="_blank"><i class="fa fa-github icon-github" aria-hidden="true"></i></a></p> -->
 
 		<div class="developers">
-			
+			<div class="row">
+
+				<div class="profile">
+
+					<div class="img-container">
+						<img src="images/site/geek-165x240-mirror.png" />
+						<div class="contact-links">
+							<a href="https://github.com/bijaydas" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+							<a href="https://www.linkedin.com/in/bijay-das" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+						</div>
+					</div>
+
+					<div class="bio">
+						<p>My name is Bijay Das. I'm a web developer. As of now I write code in PHP and other web development related tools and languages.</p>
+
+						<p>I currently live in Delhi, (India) and I'm always trying to improve my existing projects and creat new ones. <br> I
+							know this project has lots of bugs and I'm working on those as well as writing code for new features.
+						</p>
+
+					</div>
+				</div>
+			</div>
 		</div>
 
 
