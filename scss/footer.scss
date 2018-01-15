@@ -68,16 +68,24 @@ footer {
 
 		font-family: $PT_sans;
 
-		h5, a {
+		h5 {
 			color: $shadow-color;
+		}
+
+		a {
+			color: $shadow-color;
+			padding: .35rem .50rem;
+
+			border-radius: 4px;
+
+			&:hover {
+				background-color: $midnigh-blue;
+				color: #FFF;
+			}
 		}
 
 		.icon-github {
 			font-size: 1.2rem;
-
-			&:hover {
-				color: #000;
-			}
 		}
 	}
 

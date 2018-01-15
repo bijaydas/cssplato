@@ -24,7 +24,7 @@
 			<div class="second-row">
 				<h5>
 					<i class="fa fa-chevron-left" aria-hidden="true"></i><i class="fa fa-chevron-right" aria-hidden="true"></i> with <i class="fa fa-heart" aria-hidden="true"></i>
-					&nbsp; Code on <a href="https://github.com/bijaydas/cssplato"><i class="fa fa-github icon-github" aria-hidden="true"></i></a>
+					&nbsp; <a href="https://github.com/bijaydas/cssplato" target="_blank">Code on <i class="fa fa-github icon-github" aria-hidden="true"></i></a>
 				</h5>
 			</div>
 
