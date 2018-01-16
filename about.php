@@ -6,15 +6,12 @@
 
 		<h5 class="label">About CSSPlato</h5>
 
-		<p>Welcome to CSSPlato. This tool is here to help you save time and money.</p>
+		<p>Welcome to CSSPlato. This tool is to help you save time and money.</p>
 
 		<p>CSSPlato is a, simple and intuitive way of editing and tunning CSS properties. I am a developer and I wanted a new tool to save myself some tedious and repetitive work. This project is free as a gift to our developers community, from which I learn so much.</p>
 
 		<p>This project is in work in progress, there are only three features available, but I'm writing code for next tool and fixing bugs/updating in existing tools.</p>
 
-		<!-- <p>Wanna give me a hand?</p> -->
-
-		<!-- <p>Join me on <a href="https://github.com/bijaydas/cssplato" target="_blank"><i class="fa fa-github icon-github" aria-hidden="true"></i></a></p> -->
 
 		<div class="developers">
 			<div class="row">
@@ -22,7 +19,9 @@
 				<div class="profile">
 
 					<div class="img-container">
-						<img src="images/site/geek-165x240-mirror.png" />
+
+						<img src="images/site/jay_109x105.png" alt="bijay's face" />
+
 						<div class="contact-links">
 							<a href="https://github.com/bijaydas" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
 							<a href="https://www.linkedin.com/in/bijay-das" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
@@ -36,10 +35,12 @@
 							I currently live in Delhi, (India) and I'm always trying to improve my existing projects and creat new ones. <br> I
 							know this project has lots of bugs and I'm working on those as well as writing code for new features.
 						</p>
-
-
 					</div>
 				</div>
+			</div>
+
+			<div class="credits">
+				<p>CSSPlato uses icons from <a href="http://fontawesome.io/" target="_blank"><i class="fa fa-flag" aria-hidden="true"></i> Font Awesome</a> &nbsp; Fonts from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p>
 			</div>
 		</div>
 

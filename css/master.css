@@ -399,12 +399,21 @@ footer .third-row {
       display: grid;
       grid-template-columns: 1fr 3fr; }
       .about .wrapper .developers .row .profile .img-container {
-        text-align: center; }
+        text-align: center;
+        padding-top: 2rem; }
+        .about .wrapper .developers .row .profile .img-container img {
+          border-radius: 50%; }
         .about .wrapper .developers .row .profile .img-container .contact-links i {
           color: #C3C3C3; }
         .about .wrapper .developers .row .profile .img-container .contact-links .fa-github-square:hover {
           color: #676767; }
         .about .wrapper .developers .row .profile .img-container .contact-links .fa-linkedin-square:hover {
           color: #0077B5; }
+    .about .wrapper .developers .credits {
+      margin-top: 2rem; }
+      .about .wrapper .developers .credits a {
+        background-color: #64666D;
+        padding: .15rem .60rem;
+        border-radius: 4px; }
 
 /*# sourceMappingURL=master.css.map */

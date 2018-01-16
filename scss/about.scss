@@ -39,6 +39,11 @@
 					.img-container {
 
 						text-align: center;
+						padding-top: 2rem;
+
+						img {
+							border-radius: 50%;
+						}
 
 						.contact-links {
 							i {
@@ -61,6 +66,17 @@
 
 				}
 
+			}
+
+			.credits {
+
+				margin-top: 2rem;
+
+				a {
+					background-color: $gray-2;
+					padding: .15rem .60rem;
+					border-radius: 4px;
+				}
 			}
 		}
 	}
