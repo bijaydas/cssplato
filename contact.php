@@ -55,12 +55,15 @@
 					</div>
 					<div class="input-container">
 						<div class="form-label">Your Message</div>
-						<textarea></textarea>
+						<textarea rows="6"></textarea>
 					</div>
 				</div>
 
 				<div class="row">
-					<input type="button" value="SEND MESSAGE">
+					<button type="button" class="submit-btn">
+						send message
+						<i class="fa fa-angle-right fa-1x" aria-hidden="true"></i>
+					</button>
 				</div>
 			</form>
 

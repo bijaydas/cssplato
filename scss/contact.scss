@@ -5,14 +5,17 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 
-		margin: 2rem 3rem;
+		margin: 2rem 8rem;
 		width: 90%;
 
 		.left {
 
+			font-family: $PT_sans;
+
 			.form_headings {
 				h1 {
 					font-size: 2rem;
+					color: $midnigh-blue;
 				}
 				h4 {
 					font-size: 1.2rem;
@@ -37,13 +40,53 @@
 
 						.form-label {
 							margin-bottom: .60rem;
+							font-family: $Titillium_web;
 						}
 
 						.input-text {
 
 							outline: none;
+							padding: .05rem .45rem;
+							font-size: 1.1rem;
+							font-family: $Titillium_web;
+							width: 80%;
 
+							&:focus {
+								box-shadow: inset 0px 0px 10px #999;
+								-moz-box-shadow: inset 0px 0px 10px #999;
+								-webkit-box-shadow: inset 0px 0px 10px #999;
+							}
 						}
+
+						ul {
+							li {
+								padding: .60rem 0rem;
+								font-family: $Titillium_web;
+							}
+						}
+
+						textarea {
+
+							width: 80%;
+							outline: none;
+							font-size: .95rem;
+							font-family: $Titillium_web;
+							padding: .20rem .60rem;
+							resize: none;
+
+							&:focus {
+								box-shadow: inset 0px 0px 10px #999;
+								-moz-box-shadow: inset 0px 0px 10px #999;
+								-webkit-box-shadow: inset 0px 0px 10px #999;
+							}
+						}
+					}
+
+					.submit-btn {
+
+						text-transform: uppercase;
+						width: 50%;
+						font-size: 1rem;
 					}
 				}
 			}

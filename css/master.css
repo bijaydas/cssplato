@@ -419,24 +419,54 @@ footer .third-row {
 .contact .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 2rem 3rem;
+  margin: 2rem 8rem;
   width: 90%; }
-  .contact .wrapper .left .form_headings h1 {
-    font-size: 2rem; }
-  .contact .wrapper .left .form_headings h4 {
-    font-size: 1.2rem;
-    margin-top: 1rem; }
-  .contact .wrapper .left .form_headings h3 {
-    margin-top: 1rem; }
-  .contact .wrapper .left .contact-form {
-    margin-top: 1rem; }
-    .contact .wrapper .left .contact-form .row {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      margin-bottom: .60rem; }
-      .contact .wrapper .left .contact-form .row .input-container .form-label {
+  .contact .wrapper .left {
+    font-family: "PT Sans"; }
+    .contact .wrapper .left .form_headings h1 {
+      font-size: 2rem;
+      color: #2c3e50; }
+    .contact .wrapper .left .form_headings h4 {
+      font-size: 1.2rem;
+      margin-top: 1rem; }
+    .contact .wrapper .left .form_headings h3 {
+      margin-top: 1rem; }
+    .contact .wrapper .left .contact-form {
+      margin-top: 1rem; }
+      .contact .wrapper .left .contact-form .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         margin-bottom: .60rem; }
-      .contact .wrapper .left .contact-form .row .input-container .input-text {
-        outline: none; }
+        .contact .wrapper .left .contact-form .row .input-container .form-label {
+          margin-bottom: .60rem;
+          font-family: "Titillium Web"; }
+        .contact .wrapper .left .contact-form .row .input-container .input-text {
+          outline: none;
+          padding: .05rem .45rem;
+          font-size: 1.1rem;
+          font-family: "Titillium Web";
+          width: 80%; }
+          .contact .wrapper .left .contact-form .row .input-container .input-text:focus {
+            box-shadow: inset 0px 0px 10px #999;
+            -moz-box-shadow: inset 0px 0px 10px #999;
+            -webkit-box-shadow: inset 0px 0px 10px #999; }
+        .contact .wrapper .left .contact-form .row .input-container ul li {
+          padding: .60rem 0rem;
+          font-family: "Titillium Web"; }
+        .contact .wrapper .left .contact-form .row .input-container textarea {
+          width: 80%;
+          outline: none;
+          font-size: .95rem;
+          font-family: "Titillium Web";
+          padding: .20rem .60rem;
+          resize: none; }
+          .contact .wrapper .left .contact-form .row .input-container textarea:focus {
+            box-shadow: inset 0px 0px 10px #999;
+            -moz-box-shadow: inset 0px 0px 10px #999;
+            -webkit-box-shadow: inset 0px 0px 10px #999; }
+        .contact .wrapper .left .contact-form .row .submit-btn {
+          text-transform: uppercase;
+          width: 50%;
+          font-size: 1rem; }
 
 /*# sourceMappingURL=master.css.map */
