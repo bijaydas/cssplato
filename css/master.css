@@ -416,4 +416,27 @@ footer .third-row {
         padding: .15rem .60rem;
         border-radius: 4px; }
 
+.contact .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2rem 3rem;
+  width: 90%; }
+  .contact .wrapper .left .form_headings h1 {
+    font-size: 2rem; }
+  .contact .wrapper .left .form_headings h4 {
+    font-size: 1.2rem;
+    margin-top: 1rem; }
+  .contact .wrapper .left .form_headings h3 {
+    margin-top: 1rem; }
+  .contact .wrapper .left .contact-form {
+    margin-top: 1rem; }
+    .contact .wrapper .left .contact-form .row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-bottom: .60rem; }
+      .contact .wrapper .left .contact-form .row .input-container .form-label {
+        margin-bottom: .60rem; }
+      .contact .wrapper .left .contact-form .row .input-container .input-text {
+        outline: none; }
+
 /*# sourceMappingURL=master.css.map */

@@ -1,0 +1,54 @@
+.contact {
+
+	.wrapper {
+
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+
+		margin: 2rem 3rem;
+		width: 90%;
+
+		.left {
+
+			.form_headings {
+				h1 {
+					font-size: 2rem;
+				}
+				h4 {
+					font-size: 1.2rem;
+					margin-top: 1rem;
+				}
+				h3 {
+					margin-top: 1rem;
+				}
+			}
+
+			.contact-form {
+
+				margin-top: 1rem;
+
+				.row {
+					display: grid;
+					grid-template-columns: repeat(2, 1fr);
+
+					margin-bottom: .60rem;
+
+					.input-container {
+
+						.form-label {
+							margin-bottom: .60rem;
+						}
+
+						.input-text {
+
+							outline: none;
+
+						}
+					}
+				}
+			}
+
+		}
+
+	}
+}
