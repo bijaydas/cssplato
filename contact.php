@@ -15,11 +15,11 @@
 				<div class="row">
 					<div class="input-container">
 						<div class="form-label">Name</div>
-						<input type="text" class="input-text" placeholder="Your name">
+						<input id="name" type="text" class="input-text" placeholder="Your name">
 					</div>
 					<div class="input-container">
 						<div class="form-label">Email</div>
-						<input type="text" class="input-text" placeholder="Your Email">
+						<input id="email" type="text" class="input-text" placeholder="Your Email">
 					</div>
 				</div>
 
@@ -55,12 +55,12 @@
 					</div>
 					<div class="input-container">
 						<div class="form-label">Your Message</div>
-						<textarea rows="6"></textarea>
+						<textarea id="message" rows="6"></textarea>
 					</div>
 				</div>
 
 				<div class="row">
-					<button type="button" class="submit-btn">
+					<button type="submit" class="submit-btn" id="submit-btn">
 						send message
 						<i class="fa fa-angle-right fa-1x" aria-hidden="true"></i>
 					</button>

@@ -40,7 +40,8 @@
 		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<script src="js/color_picker/colorpicker.js"></script>
 
-		<script src="js/master.min.js"></script>
+		<script src="js/hooks.js"></script>
+		<script src="js/index.js"></script>
 		<script src="js/box-shadow.js"></script>
 		<script src="js/text-shadow.js"></script>
 		<script src="js/border-radius.js"></script>
