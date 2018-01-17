@@ -481,5 +481,11 @@ footer .third-row {
             background: #9c9fe0;
             background: -webkit-linear-gradient(to right, #999dfb, #565cca);
             background: linear-gradient(to right, #999dfb, #565cca); }
+  .contact .wrapper .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Titillium Web";
+    color: #64666D; }
 
 /*# sourceMappingURL=master.css.map */

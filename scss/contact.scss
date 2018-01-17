@@ -109,5 +109,14 @@
 
 		}
 
+		.right {
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-family: $Titillium_web;
+			color: $gray-2;
+		}
+
 	}
 }

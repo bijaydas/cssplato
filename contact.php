@@ -71,7 +71,7 @@
 		</div>
 
 		<div class="right">
-			Or mail at bijaydas@outlook.com
+			<i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;Email: imbijaydas@gmail.com
 		</div>
 	</div><!-- .wrapper -->
 </div>
