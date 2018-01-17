@@ -74,7 +74,7 @@ function updateBorderRadius() {
 	css += bottom_right + delimeter + " ";
 	css += bottom_left  + delimeter;
 
-	jQuery(".border-radius-css").html(css);
+	jQuery(".border-radius-css").html("border-radius: " + css);
 
 	jQuery(".border-radius-preview").css({
 			borderRadius: css,
@@ -98,7 +98,7 @@ function updatetextShadow(font_family='Abel') {
 	s    += vertical_shadow   + "px ";
 	s    += blur_radius   	  + "px #" + font_shadow_color;
 
-	jQuery(".text-shadow-css").html(s);
+	jQuery(".text-shadow-css").html("text-shadow: " + s);
 
 	jQuery(".sample-text").css({
 		fontSize: font_size + "px",
