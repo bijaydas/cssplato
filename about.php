@@ -40,11 +40,9 @@
 			</div>
 
 			<div class="credits">
-				<p>CSSPlato uses icons from <a href="http://fontawesome.io/" target="_blank"><i class="fa fa-flag" aria-hidden="true"></i> Font Awesome</a> &nbsp; Fonts from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p>
+				<p>CSSPlato uses icons from <a href="http://fontawesome.io/" target="_blank"><i class="fa fa-flag" aria-hidden="true"></i> Font Awesome</a> &nbsp; Fonts from <a href="https://fonts.google.com/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i> Google Fonts</a></p>
 			</div>
 		</div>
-
-
 
 	</div><!-- .wrapper -->
 </div>
