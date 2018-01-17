@@ -413,7 +413,7 @@ footer .third-row {
       margin-top: 2rem; }
       .about .wrapper .developers .credits a {
         background-color: #64666D;
-        padding: .15rem .60rem;
+        padding: .25rem .60rem;
         border-radius: 4px; }
 
 .contact .wrapper {
@@ -466,7 +466,20 @@ footer .third-row {
             -webkit-box-shadow: inset 0px 0px 10px #999; }
         .contact .wrapper .left .contact-form .row .submit-btn {
           text-transform: uppercase;
-          width: 50%;
-          font-size: 1rem; }
+          width: 55%;
+          font-size: 1rem;
+          font-family: "Titillium Web";
+          background: #4e54c8;
+          background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+          background: linear-gradient(to right, #8f94fb, #4e54c8);
+          outline: none;
+          border: none;
+          color: #FFFFFF;
+          padding: .30rem .60rem;
+          cursor: pointer; }
+          .contact .wrapper .left .contact-form .row .submit-btn:hover {
+            background: #9c9fe0;
+            background: -webkit-linear-gradient(to right, #999dfb, #565cca);
+            background: linear-gradient(to right, #999dfb, #565cca); }
 
 /*# sourceMappingURL=master.css.map */

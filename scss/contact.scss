@@ -85,8 +85,24 @@
 					.submit-btn {
 
 						text-transform: uppercase;
-						width: 50%;
+						width: 55%;
 						font-size: 1rem;
+						font-family: $Titillium_web;
+
+						background: #4e54c8;
+						background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+						background: linear-gradient(to right, #8f94fb, #4e54c8);
+						outline: none;
+						border: none;
+						color: $white;
+						padding: .30rem .60rem;
+						cursor: pointer;
+
+						&:hover {
+							background: lighten(#4e54c8, 20%);
+							background: -webkit-linear-gradient(to right, lighten(#8f94fb, 2%), lighten(#4e54c8, 2%));
+							background: linear-gradient(to right, lighten(#8f94fb, 2%), lighten(#4e54c8, 2%));
+						}
 					}
 				}
 			}
