@@ -1,6 +1,7 @@
 jQuery(document).ready(function() {
 
 	jQuery("body").on("click", "#submit-btn", function(e) {
+
 		e.preventDefault();
 
 		let name    = jQuery("#name").val(),
@@ -33,7 +34,21 @@ jQuery(document).ready(function() {
 					"contact_reason" : contact_reason
 				},
 				success: function(e) {
-					console.log(e);
+
+					let json = JSON.parse(e);
+
+					if (json.status == "200") {
+
+						jQuery("#name").val("");
+						jQuery("#email").val("");
+						jQuery("#message").val("");
+						jQuery("#" + contact_reason).prop("checked", false);
+
+						alert("Request submitted, we'll contact you soon");
+					}
+					else if (json.status == "201") {
+						alert("Form not Uploaded, try again");
+					}
 				}
 			});
 		}
