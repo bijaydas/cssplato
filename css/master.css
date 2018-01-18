@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Mukta+Malar|PT+Sans|Raleway|Titillium+Web|Ubuntu|Abel|Lobster");
+@import url("https://fonts.googleapis.com/css?family=Mukta+Malar|PT+Sans|Raleway|Titillium+Web|Ubuntu|Abel|Lobster|Rambla");
 /**
  * Fonts
  *
@@ -15,7 +15,7 @@ nav {
   box-shadow: 0px 3px 10px #888888; }
   nav .brand-logo a {
     font-size: 1.3rem;
-    font-family: 'Abel'; }
+    font-family: "Rambla"; }
   nav ul {
     text-align: right; }
     nav ul li {
