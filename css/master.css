@@ -351,7 +351,8 @@ footer .first-row {
   footer .first-row .img-container {
     position: absolute;
     top: -95px;
-    right: 0; }
+    right: 0;
+    display: none; }
 footer .second-row {
   text-align: center;
   padding-bottom: .8rem;
@@ -487,5 +488,66 @@ footer .third-row {
     justify-content: center;
     font-family: "Titillium Web";
     color: #64666D; }
+
+.colors .preview-color-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 4rem;
+  grid-column-gap: 1rem;
+  width: 95%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+  .colors .preview-color-container .preview-color {
+    width: 100%;
+    height: 100%;
+    background-color: #3F51B5;
+    border-radius: 3px; }
+  .colors .preview-color-container .color-input {
+    display: grid;
+    align-items: center;
+    width: 30%; }
+    .colors .preview-color-container .color-input .color-text {
+      font-size: 2rem;
+      padding: .8rem .6rem;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #C3C3C3;
+      color: #C1C1C1; }
+  .colors .preview-color-container .input-go {
+    display: flex; }
+    .colors .preview-color-container .input-go button {
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer; }
+      .colors .preview-color-container .input-go button i {
+        font-size: 3rem;
+        color: #C1C1C1; }
+        .colors .preview-color-container .input-go button i:hover {
+          color: #64666D; }
+.colors .color-nav-bar {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 3rem;
+  grid-column-gap: 1rem;
+  width: 95%;
+  margin: 1rem auto; }
+  .colors .color-nav-bar .nav-colors {
+    position: relative; }
+    .colors .color-nav-bar .nav-colors a {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-family: "Raleway";
+      font-size: .70rem;
+      transition: .1s; }
+      .colors .color-nav-bar .nav-colors a:hover {
+        box-shadow: 5px 5px 10px #C3C3C3; }
 
 /*# sourceMappingURL=master.css.map */

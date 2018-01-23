@@ -49,7 +49,7 @@ function navigation_bar($select) {
 		$output .= '<li><a href="/azaro" class="selected">Home</a></li>';
 	}
 	else {
-		$output .= '<li><a href="/azaro">Home</a></li>';
+		$output .= '<li><a href="/cssplato">Home</a></li>';
 	}
 
 	if ($select == "box-shadow") {
@@ -71,6 +71,13 @@ function navigation_bar($select) {
 	}
 	else {
 		$output .= '<li><a href="border-radius.php" class="nav-bar">Border Radius</a></li>';
+	}
+
+	if ($select == "colors") {
+		$output .= '<li><a href="colors.php" class="nav-bar selected">Colors</a></li>';
+	}
+	else {
+		$output .= '<li><a href="colors.php" class="nav-bar">Colors</a></li>';
 	}
 
 	return $output;

@@ -57,4 +57,15 @@ jQuery(document).ready(function() {
 		}
 
 	});
+
+    // Color Pallate
+
+	for (let i = 0; i < jQuery(".nav-colors").length; i++) {
+
+		let color = jQuery(".nav-colors").eq(i).children().attr("href");
+
+		jQuery(".nav-colors").eq(i).children().css({
+			backgroundColor: color
+		});
+	}
 });
