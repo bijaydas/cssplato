@@ -60,12 +60,12 @@ jQuery(document).ready(function() {
 
     // Color Pallate
 
-	for (let i = 0; i < jQuery(".nav-colors").length; i++) {
-
-		let color = jQuery(".nav-colors").eq(i).children().attr("href");
-
-		jQuery(".nav-colors").eq(i).children().css({
-			backgroundColor: color
-		});
-	}
+	// for (let i = 0; i < jQuery(".color-container").length; i++) {
+    //
+	// 	let color = jQuery(".color-container").eq(i).children().attr("href");
+    //
+	// 	jQuery(".color-container").eq(i).children().css({
+	// 		backgroundColor: color
+	// 	});
+	// }
 });

@@ -20,35 +20,69 @@
 	<div class="color-nav-bar">
 
 		<div class="nav-colors">
-			<a href="#3498db"></a>
+
+			<div class="color-container">
+				<a href="#3498db" class="blue"></a>
+			</div>
+
+			<div class="color-name">Blue</div>
 		</div>
 
 		<div class="nav-colors">
-			<a href="#e74c3c"></a>
-		</div>
 
-		<div class="nav-colors">
-			<a href="#27ae60"></a>
-		</div>
+			<div class="color-container">
+				<a href="#e74c3c" class="red"></a>
+			</div>
 
-		<div class="nav-colors">
-			<a href="#f1c40f"></a>
+			<div class="color-name">Red</div>
 		</div>
-
 		<div class="nav-colors">
-			<a href="#3F51B5"></a>
+
+			<div class="color-container">
+				<a href="#27ae60" class="green"></a>
+			</div>
+
+			<div class="color-name">Green</div>
 		</div>
-
 		<div class="nav-colors">
-			<a href="#bec4c8"></a>
+
+			<div class="color-container">
+				<a href="#77cc00" class="chartreuse"></a>
+			</div>
+
+			<div class="color-name">Chartreuse</div>
 		</div>
-
 		<div class="nav-colors">
-			<a href="#27005e"></a>
+
+			<div class="color-container">
+				<a href="#3F51B5" class="blueviolet"></a>
+			</div>
+
+			<div class="color-name">BlueViolet</div>
 		</div>
-
 		<div class="nav-colors">
-			<a href="#a2000d"></a>
+
+			<div class="color-container">
+				<a href="#20B2AA" class="lightseagreen"></a>
+			</div>
+
+			<div class="color-name">LightSeaGreen</div>
+		</div>
+		<div class="nav-colors">
+
+			<div class="color-container">
+				<a href="#27005e" class="indigo"></a>
+			</div>
+
+			<div class="color-name">Indigo</div>
+		</div>
+		<div class="nav-colors">
+
+			<div class="color-container">
+				<a href="#a2000d" class="darkred"></a>
+			</div>
+
+			<div class="color-name">DarkRed</div>
 		</div>
 	</div>
 
