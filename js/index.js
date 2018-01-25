@@ -55,17 +55,11 @@ jQuery(document).ready(function() {
 		else {
 			alert("Please fill the details");
 		}
-
 	});
 
-    // Color Pallate
 
-	// for (let i = 0; i < jQuery(".color-container").length; i++) {
-    //
-	// 	let color = jQuery(".color-container").eq(i).children().attr("href");
-    //
-	// 	jQuery(".color-container").eq(i).children().css({
-	// 		backgroundColor: color
-	// 	});
-	// }
+
+	for (let i = 10; i <= 100; i+=10) {
+		console.log(shadeColor("#a2000d", i));
+	}
 });

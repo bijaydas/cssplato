@@ -86,6 +86,665 @@
 		</div>
 	</div>
 
+	<div class="colorShadesContainer">
+
+		<div id="3498db" class="colorsContainerRow">
+			<!-- Red -->
+			<div class="colorShades col5">
+
+				<div class="partiColor">
+
+					<div class="colContainer col_blue_1"></div>
+
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blue_2"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blue_3"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blue_4"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blue_5"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+			<div class="colorShades col5">
+				<div class="partiColor">
+					<div class="colContainer col_blue_6"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blue_7"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blue_8"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blue_9"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blue_10"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="e74c3c" class="colorsContainerRow">
+			<!-- Red -->
+			<div class="colorShades col5">
+
+				<div class="partiColor">
+
+					<div class="colContainer col_red_1"></div>
+
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_red_2"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_red_3"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_red_4"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_red_5"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+			<div class="colorShades col5">
+				<div class="partiColor">
+					<div class="colContainer col_red_6"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_red_7"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_red_8"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_red_9"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_red_10"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="27ae60" class="colorsContainerRow">
+			<!-- Red -->
+			<div class="colorShades col5">
+
+				<div class="partiColor">
+
+					<div class="colContainer col_green_1"></div>
+
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_green_2"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_green_3"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_green_4"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_green_5"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+			<div class="colorShades col5">
+				<div class="partiColor">
+					<div class="colContainer col_green_6"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_green_7"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_green_8"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_green_9"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_green_10"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="77cc00" class="colorsContainerRow">
+			<!-- Red -->
+			<div class="colorShades col5">
+
+				<div class="partiColor">
+
+					<div class="colContainer col_chartreuse_1"></div>
+
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_chartreuse_2"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_chartreuse_3"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_chartreuse_4"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_chartreuse_5"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+			<div class="colorShades col5">
+				<div class="partiColor">
+					<div class="colContainer col_chartreuse_6"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_chartreuse_7"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_chartreuse_8"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_chartreuse_9"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_chartreuse_10"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="3F51B5" class="colorsContainerRow">
+			<!-- Red -->
+			<div class="colorShades col5">
+
+				<div class="partiColor">
+
+					<div class="colContainer col_blueViolate_1"></div>
+
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blueViolate_2"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blueViolate_3"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blueViolate_4"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blueViolate_5"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+			<div class="colorShades col5">
+				<div class="partiColor">
+					<div class="colContainer col_blueViolate_6"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blueViolate_7"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blueViolate_8"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blueViolate_9"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_blueViolate_10"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="20B2AA" class="colorsContainerRow">
+			<!-- Red -->
+			<div class="colorShades col5">
+
+				<div class="partiColor">
+
+					<div class="colContainer col_lightgreen_1"></div>
+
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_lightgreen_2"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_lightgreen_3"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_lightgreen_4"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_lightgreen_5"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+			<div class="colorShades col5">
+				<div class="partiColor">
+					<div class="colContainer col_lightgreen_6"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_lightgreen_7"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_lightgreen_8"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_lightgreen_9"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_lightgreen_10"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="27005e" class="colorsContainerRow">
+			<!-- Red -->
+			<div class="colorShades col5">
+
+				<div class="partiColor">
+
+					<div class="colContainer col_indigo_1"></div>
+
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_indigo_2"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_indigo_3"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_indigo_4"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_indigo_5"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+			<div class="colorShades col5">
+				<div class="partiColor">
+					<div class="colContainer col_indigo_6"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_indigo_7"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_indigo_8"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_indigo_9"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_indigo_10"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="a2000d" class="colorsContainerRow">
+			<!-- Red -->
+			<div class="colorShades col5">
+
+				<div class="partiColor">
+
+					<div class="colContainer col_darkred_1"></div>
+
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_darkred_2"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_darkred_3"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_darkred_4"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_darkred_5"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+			<div class="colorShades col5">
+				<div class="partiColor">
+					<div class="colContainer col_darkred_6"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_darkred_7"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_darkred_8"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_darkred_9"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer col_darkred_10"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft">fakeName</div>
+						<div class="alignRight">#fakeValue</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
 </div>
 
 <?php require '__includes/footer.php'; ?>

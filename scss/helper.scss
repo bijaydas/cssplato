@@ -6,3 +6,118 @@
 .lightseagreen{background-color: $green4;}
 .indigo{background-color: $indigo;}
 .darkred{background-color: $red4;}
+
+.col5 {
+	width: 95%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-column-gap: 1rem;
+}
+.col2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.colContainer {
+	height: 60px;
+}
+
+.alignLeft {text-align: left;}
+.alignRight {text-align: right;}
+
+
+// colors.php
+.col_blue_1 {background-color: $col_blue_1;}
+.col_blue_2 {background-color: $col_blue_2;}
+.col_blue_3 {background-color: $col_blue_3;}
+.col_blue_4 {background-color: $col_blue_4;}
+.col_blue_5 {background-color: $col_blue_5;}
+.col_blue_6 {background-color: $col_blue_6;}
+.col_blue_7 {background-color: $col_blue_7;}
+.col_blue_8 {background-color: $col_blue_8;}
+.col_blue_9 {background-color: $col_blue_9;}
+.col_blue_10 {background-color: $col_blue_10;}
+
+
+.col_red_1 {background-color: $col_red_1;}
+.col_red_2 {background-color: $col_red_2;}
+.col_red_3 {background-color: $col_red_3;}
+.col_red_4 {background-color: $col_red_4;}
+.col_red_5 {background-color: $col_red_5;}
+.col_red_6 {background-color: $col_red_6;}
+.col_red_7 {background-color: $col_red_7;}
+.col_red_8 {background-color: $col_red_8;}
+.col_red_9 {background-color: $col_red_9;}
+.col_red_10 {background-color: $col_red_10;}
+
+
+.col_green_1 {background-color: $col_green_1;}
+.col_green_2 {background-color: $col_green_2;}
+.col_green_3 {background-color: $col_green_3;}
+.col_green_4 {background-color: $col_green_4;}
+.col_green_5 {background-color: $col_green_5;}
+.col_green_6 {background-color: $col_green_6;}
+.col_green_7 {background-color: $col_green_7;}
+.col_green_8 {background-color: $col_green_8;}
+.col_green_9 {background-color: $col_green_9;}
+.col_green_10 {background-color: $col_green_10;}
+
+
+.col_chartreuse_1 {background-color: $col_chartreuse_1;}
+.col_chartreuse_2 {background-color: $col_chartreuse_2;}
+.col_chartreuse_3 {background-color: $col_chartreuse_3;}
+.col_chartreuse_4 {background-color: $col_chartreuse_4;}
+.col_chartreuse_5 {background-color: $col_chartreuse_5;}
+.col_chartreuse_6 {background-color: $col_chartreuse_6;}
+.col_chartreuse_7 {background-color: $col_chartreuse_7;}
+.col_chartreuse_8 {background-color: $col_chartreuse_8;}
+.col_chartreuse_9 {background-color: $col_chartreuse_9;}
+.col_chartreuse_10 {background-color: $col_chartreuse_10;}
+
+
+.col_blueViolate_1 {background-color: $col_blueViolate_1;}
+.col_blueViolate_2 {background-color: $col_blueViolate_2;}
+.col_blueViolate_3 {background-color: $col_blueViolate_3;}
+.col_blueViolate_4 {background-color: $col_blueViolate_4;}
+.col_blueViolate_5 {background-color: $col_blueViolate_5;}
+.col_blueViolate_6 {background-color: $col_blueViolate_6;}
+.col_blueViolate_7 {background-color: $col_blueViolate_7;}
+.col_blueViolate_8 {background-color: $col_blueViolate_8;}
+.col_blueViolate_9 {background-color: $col_blueViolate_9;}
+.col_blueViolate_10 {background-color: $col_blueViolate_10;}
+
+
+.col_lightgreen_1 {background-color: $col_lightgreen_1;}
+.col_lightgreen_2 {background-color: $col_lightgreen_2;}
+.col_lightgreen_3 {background-color: $col_lightgreen_3;}
+.col_lightgreen_4 {background-color: $col_lightgreen_4;}
+.col_lightgreen_5 {background-color: $col_lightgreen_5;}
+.col_lightgreen_6 {background-color: $col_lightgreen_6;}
+.col_lightgreen_7 {background-color: $col_lightgreen_7;}
+.col_lightgreen_8 {background-color: $col_lightgreen_8;}
+.col_lightgreen_9 {background-color: $col_lightgreen_9;}
+.col_lightgreen_10 {background-color: $col_lightgreen_10;}
+
+
+.col_indigo_1 {background-color: $col_indigo_1};
+.col_indigo_2 {background-color: $col_indigo_2};
+.col_indigo_3 {background-color: $col_indigo_3};
+.col_indigo_4 {background-color: $col_indigo_4};
+.col_indigo_5 {background-color: $col_indigo_5};
+.col_indigo_6 {background-color: $col_indigo_6};
+.col_indigo_7 {background-color: $col_indigo_7};
+.col_indigo_8 {background-color: $col_indigo_8};
+.col_indigo_9 {background-color: $col_indigo_9};
+.col_indigo_10 {background-color: $col_indigo_10};
+
+
+.col_darkred_1 {background-color: $col_darkred_1;}
+.col_darkred_2 {background-color: $col_darkred_2;}
+.col_darkred_3 {background-color: $col_darkred_3;}
+.col_darkred_4 {background-color: $col_darkred_4;}
+.col_darkred_5 {background-color: $col_darkred_5;}
+.col_darkred_6 {background-color: $col_darkred_6;}
+.col_darkred_7 {background-color: $col_darkred_7;}
+.col_darkred_8 {background-color: $col_darkred_8;}
+.col_darkred_9 {background-color: $col_darkred_9;}
+.col_darkred_10 {background-color: $col_darkred_10;}
