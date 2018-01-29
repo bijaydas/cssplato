@@ -56,10 +56,4 @@ jQuery(document).ready(function() {
 			alert("Please fill the details");
 		}
 	});
-
-
-
-	for (let i = 10; i <= 100; i+=10) {
-		console.log(shadeColor("#a2000d", i));
-	}
 });
