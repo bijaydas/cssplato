@@ -1,11 +1,13 @@
-@import "variables";
-@import "header";
-@import "box-shadow";
-@import "border-radius";
-@import "text-shadow";
-@import "home";
-@import "footer";
-@import "about";
-@import "contact";
-@import "colors";
-@import "helper";
+@import "resources/variables";
+@import "resources/helper";
+
+@import "pages/header";
+@import "pages/footer";
+
+@import "pages/box-shadow";
+@import "pages/border-radius";
+@import "pages/text-shadow";
+@import "pages/home";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/colors";
