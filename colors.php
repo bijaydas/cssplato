@@ -11,8 +11,12 @@
 		</div>
 
 		<div class="input-go">
-			<button type="button">
+			<button type="button" class="button __colors_btn">
 				<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+			</button>
+
+			<button type="button" class="button __color_tabs">
+				<i class="fa fa-th" aria-hidden="true"></i>
 			</button>
 		</div>
 	</div>
@@ -745,6 +749,91 @@
 					<div class="labelContainer col2">
 						<div class="alignLeft">Dark Red 10</div>
 						<div class="alignRight">#ff9980</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="colorShadesContainer" style="display: none;">
+
+		<div class="colorsContainerRow">
+
+			<div class="colorShades col5 __bgcolor">
+				<div class="partiColor">
+
+					<div class="colContainer"></div>
+
+					<div class="labelContainer col2">
+						<div class="alignLeft"></div>
+						<div class="alignRight"></div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft"></div>
+						<div class="alignRight"></div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft"></div>
+						<div class="alignRight"></div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft"></div>
+						<div class="alignRight"></div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft"></div>
+						<div class="alignRight"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="colorShades col5 __bgcolor">
+				<div class="partiColor">
+					<div class="colContainer"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft"></div>
+						<div class="alignRight"></div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft"></div>
+						<div class="alignRight"></div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft"></div>
+						<div class="alignRight"></div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft"></div>
+						<div class="alignRight"></div>
+					</div>
+				</div>
+				<div class="partiColor">
+					<div class="colContainer"></div>
+					<div class="labelContainer col2">
+						<div class="alignLeft"></div>
+						<div class="alignRight"></div>
 					</div>
 				</div>
 			</div>

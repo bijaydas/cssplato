@@ -93,4 +93,51 @@ jQuery(document).ready(function() {
 			$(".colContainer").removeClass("copiedBGColor");
 		}, 1200);
 	});
+
+	jQuery("body").on("click", ".__colors_btn i", function() {
+
+		let bgColor = jQuery(".color-text").val();
+
+		jQuery(".preview-color").css({backgroundColor: bgColor});
+
+		jQuery(".colorShadesContainer").eq(0).css({display: "none"});
+		jQuery(".colorShadesContainer").eq(1).css({display: "block"});
+
+		$(".__color_tabs i").css({display: "block"});
+
+		preview_color(bgColor);
+	});
+
+	// Color preview button on colors.php
+
+	jQuery("body").on("click", ".__color_tabs i", function() {
+
+		$(this).css({display: "none"});
+		jQuery(".colorShadesContainer").eq(0).css({display: "block"});
+		jQuery(".colorShadesContainer").eq(1).css({display: "none"});
+	});
+
+	function preview_color(color) {
+
+		var percent = 10;
+
+		for (let i = 0; i < 10; i++) {
+
+			let bgColor = shadeColor(color, percent);
+
+			if (i < 5) {
+				jQuery(".__bgcolor").eq(0).children(".partiColor").eq(i).children(".colContainer").css({backgroundColor: bgColor});
+				jQuery(".__bgcolor").eq(0).children(".partiColor").eq(i).children(".labelContainer").children(".alignRight").html(bgColor);
+				jQuery(".__bgcolor").eq(0).children(".partiColor").eq(i).children(".labelContainer").children(".alignLeft").html("Shade " + (i + 1));
+			}
+
+			if (i >= 5) {
+				jQuery(".__bgcolor").eq(1).children(".partiColor").eq(i-5).children(".colContainer").css({backgroundColor: bgColor});
+				jQuery(".__bgcolor").eq(1).children(".partiColor").eq(i-5).children(".labelContainer").children(".alignRight").html(bgColor);
+				jQuery(".__bgcolor").eq(1).children(".partiColor").eq(i-5).children(".labelContainer").children(".alignLeft").html("Shade " + (i + 1));
+			}
+
+			percent += 10;
+		}
+	}
 });

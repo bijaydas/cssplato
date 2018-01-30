@@ -810,6 +810,8 @@ footer .third-row {
         color: #C1C1C1; }
         .colors .preview-color-container .input-go button i:hover {
           color: #64666D; }
+    .colors .preview-color-container .input-go .__color_tabs i {
+      display: none; }
 .colors .color-nav-bar {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
