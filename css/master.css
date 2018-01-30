@@ -628,9 +628,9 @@ footer .third-row {
 
 .home .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1rem;
-  width: 50%;
+  width: 55%;
   margin: 2rem auto; }
   .home .wrapper a.nav-pages {
     width: 100%;
@@ -660,6 +660,10 @@ footer .third-row {
     .home .wrapper .home-column:nth-child(3):hover {
       background-color: #2ecc71; }
       .home .wrapper .home-column:nth-child(3):hover i, .home .wrapper .home-column:nth-child(3):hover .img-label {
+        color: #FFFFFF; }
+    .home .wrapper .home-column:nth-child(4):hover {
+      background-color: #bf00ff; }
+      .home .wrapper .home-column:nth-child(4):hover i, .home .wrapper .home-column:nth-child(4):hover .img-label {
         color: #FFFFFF; }
 
 .about .wrapper {

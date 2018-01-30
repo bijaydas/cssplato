@@ -40,6 +40,19 @@
 				<h4>Border Radius</h4>
 			</div>
 		</div>
+
+		<div class="color-home home-column">
+
+			<a href="colors.php" class="nav-pages"></a>
+
+			<div class="img-container">
+				<i class="fa fa-paint-brush" aria-hidden="true"></i>
+			</div>
+			<div class="img-label">
+				<h4>Colors</h4>
+			</div>
+		</div>
+
 	</div><!-- .wrapper -->
 </div>
 

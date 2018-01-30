@@ -3,9 +3,9 @@
 	.wrapper {
 
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 		grid-column-gap: 1rem;
-		width: 50%;
+		width: 55%;
 		margin: 2rem auto;
 
 		a.nav-pages {
@@ -61,7 +61,15 @@
 				i, .img-label {
 					color: $white;
 				}
+			}
 
+			&:nth-child(4):hover {
+
+				background-color: $col_indigo_6;
+
+				i, .img-label {
+					color: $white;
+				}
 			}
 		}
 	}
