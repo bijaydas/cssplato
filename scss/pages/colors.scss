@@ -1,5 +1,7 @@
 .colors {
 
+	position: relative;
+
 	.preview-color-container {
 
 		display: grid;
@@ -115,5 +117,26 @@
 			}
 		}
 
+	}
+
+	.__home-fixed {
+		position: fixed;
+		top: 80%;
+		right: 20px;
+		background: none;
+		border: none;
+		outline: none;
+
+		i {
+			font-size: 4rem;
+			color: $gray-2;
+			opacity: 0.5;
+
+			&:hover {
+
+				opacity: 1;
+				cursor: pointer;
+			}
+		}
 	}
 }

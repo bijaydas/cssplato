@@ -62,7 +62,7 @@ jQuery(document).ready(function() {
 
 	// colors.php
 
-	jQuery("body").on("click", ".color-container > a", function(e) {
+	jQuery("body").on("click", ".color-container > a, .__home-fixed", function(e) {
 		e.preventDefault();
 
 		let hash = this.hash;

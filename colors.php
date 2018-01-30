@@ -1,6 +1,6 @@
 <?php require '__includes/header.php'; get_header("colors"); ?>
 
-<div class="colors">
+<div class="colors" id="colors">
 
 	<div class="preview-color-container">
 
@@ -841,6 +841,9 @@
 
 	</div>
 
+	<a href="#colors" class="__home-fixed">
+		<i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+	</a>
 </div>
 
 <?php require '__includes/footer.php'; ?>
