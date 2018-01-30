@@ -220,10 +220,7 @@
   background-color: #c61aff; }
 
 .col_indigo_6 {
-  background-color: #ac00e6; }
-
-.col_indigo_6 {
-  background-color: #ac00e6; }
+  background-color: #bf00ff; }
 
 .col_indigo_5 {
   background-color: #9900cc; }
@@ -270,6 +267,30 @@
 .col_darkred_1 {
   background-color: #991f00; }
 
+.copiedBGColor {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: "Titillium Web";
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+  font-weight: 600; }
+  .copiedBGColor::after {
+    content: 'copied';
+    -webkit-animation: large_text 1.5s 1;
+    -moz-animation: large_text 1.5s 1;
+    animation: large_text 1.5s 1; }
+
+@keyframes large_text {
+  form {
+    transform: scale(1, 1);
+    opacity: 1; }
+  to {
+    transform: scale(2, 2);
+    opacity: 0; } }
 nav {
   background-color: #2980b9;
   display: grid;
@@ -809,9 +830,14 @@ footer .third-row {
     font-size: .80rem;
     font-family: "Rambla";
     color: #64666D; }
-.colors .colorShadesContainer .colContainer {
-  border-radius: 3px; }
-.colors .colorShadesContainer .labelContainer {
-  margin-top: .70rem; }
+.colors .colorShadesContainer .colorsContainerRow {
+  margin-bottom: 1rem; }
+  .colors .colorShadesContainer .colorsContainerRow .colContainer {
+    border-radius: 3px; }
+  .colors .colorShadesContainer .colorsContainerRow .labelContainer {
+    margin-top: .70rem;
+    margin-bottom: .70rem;
+    color: #676767;
+    font-size: .80rem; }
 
 /*# sourceMappingURL=master.css.map */

@@ -56,4 +56,41 @@ jQuery(document).ready(function() {
 			alert("Please fill the details");
 		}
 	});
+
+
+
+
+	// colors.php
+
+	jQuery("body").on("click", ".color-container > a", function(e) {
+		e.preventDefault();
+
+		let hash = this.hash;
+
+		jQuery("html, body").animate({
+			scrollTop: jQuery(hash).offset().top
+		}), 800, function() {
+			window.location.hash = hash;
+		};
+	})
+
+	jQuery("body").on("click", ".colContainer", function() {
+
+		let bgColor  = jQuery(this).siblings().children(".alignRight").html(),
+			$tmp_var = jQuery("<input type='text'>");
+
+		jQuery("body").append($tmp_var);
+
+		$tmp_var.val();
+		$tmp_var.val(bgColor).select();
+		document.execCommand("copy");
+
+		$tmp_var.remove();
+
+		$(this).addClass("copiedBGColor");
+
+		setTimeout(function() {
+			$(".colContainer").removeClass("copiedBGColor");
+		}, 1200);
+	});
 });

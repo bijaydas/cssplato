@@ -94,12 +94,21 @@
 
 	.colorShadesContainer {
 
-		.colContainer {
-			border-radius: 3px;
+		.colorsContainerRow {
+
+			margin-bottom: 1rem;
+
+			.colContainer {
+				border-radius: 3px;
+			}
+
+			.labelContainer {
+				margin-top: .70rem;
+				margin-bottom: .70rem;
+				color: $gray-1;
+				font-size: .80rem;
+			}
 		}
 
-		.labelContainer {
-			margin-top: .70rem;
-		}
 	}
 }
