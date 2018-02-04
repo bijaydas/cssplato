@@ -23,7 +23,7 @@ function get_header(String $select) {
 	<header>
 		<nav>
 			<div class="brand-logo">
-				<a href="#">CSSPlato</a>
+				<a href="/">CSSPlato</a>
 			</div>
 
 			<div>
@@ -46,38 +46,38 @@ function navigation_bar($select) {
 	$output = "";
 
 	if ($select == "home" || $select == "index") {
-		$output .= '<li><a href="/azaro" class="selected">Home</a></li>';
+		$output .= '<li><a href="/" class="selected">Home</a></li>';
 	}
 	else {
-		$output .= '<li><a href="/cssplato">Home</a></li>';
+		$output .= '<li><a href="/">Home</a></li>';
 	}
 
 	if ($select == "box-shadow") {
-		$output .= '<li><a href="box-shadow.php" class="nav-bar selected">Box Shadow</a></li>';
+		$output .= '<li><a href="box-shadow" class="nav-bar selected">Box Shadow</a></li>';
 	}
 	else {
-		$output .= '<li><a href="box-shadow.php" class="nav-bar">Box Shadow</a></li>';
+		$output .= '<li><a href="box-shadow" class="nav-bar">Box Shadow</a></li>';
 	}
 
 	if ($select == "text-shadow") {
-		$output .= '<li><a href="text-shadow.php" class="nav-bar selected">Text Shadow</a></li>';
+		$output .= '<li><a href="text-shadow" class="nav-bar selected">Text Shadow</a></li>';
 	}
 	else {
-		$output .= '<li><a href="text-shadow.php" class="nav-bar">Text Shadow</a></li>';
+		$output .= '<li><a href="text-shadow" class="nav-bar">Text Shadow</a></li>';
 	}
 
 	if ($select == "border-radius") {
-		$output .= '<li><a href="border-radius.php" class="nav-bar selected">Border Radius</a></li>';
+		$output .= '<li><a href="border-radius" class="nav-bar selected">Border Radius</a></li>';
 	}
 	else {
-		$output .= '<li><a href="border-radius.php" class="nav-bar">Border Radius</a></li>';
+		$output .= '<li><a href="border-radius" class="nav-bar">Border Radius</a></li>';
 	}
 
 	if ($select == "colors") {
-		$output .= '<li><a href="colors.php" class="nav-bar selected">Colors</a></li>';
+		$output .= '<li><a href="colors" class="nav-bar selected">Colors</a></li>';
 	}
 	else {
-		$output .= '<li><a href="colors.php" class="nav-bar">Colors</a></li>';
+		$output .= '<li><a href="colors" class="nav-bar">Colors</a></li>';
 	}
 
 	return $output;

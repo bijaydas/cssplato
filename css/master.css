@@ -345,8 +345,7 @@ footer .first-row {
   footer .first-row .img-container {
     position: absolute;
     top: -95px;
-    right: 0;
-    display: none; }
+    right: 0; }
 footer .second-row {
   text-align: center;
   padding-bottom: .8rem;
